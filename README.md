@@ -120,7 +120,7 @@ El diagrama biológico (BioRender) relaciona cada estructura con su elemento mec
 | Fuerza generada | $F(t)$ | Fuente de voltaje $F(t)$ |
 | Desplazamiento muscular | $x(t)$, $x_1(t)$ | Carga / corriente $x(t)$, $x_1(t)$ |
 
-![Diagrama biológico](Diagrama_Biologico.png)
+![Diagrama biológico](Diagrama Biologico.png)
 
 ### Analogía fuerza–voltaje
 
