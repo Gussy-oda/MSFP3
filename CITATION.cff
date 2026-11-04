@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Práctica 3: Sistema musculoesquelético.'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Gustavo
+    family-names: Ortega Odabachea
+    email: L23212223@tijuana.tecnm.mx
+    affiliation: TecNM / IT Tijuana
+repository-code: 'https://github.com/Gussy-oda/MSFP3'
+keywords:
+  - sistema musculoesquelético
+  - atrofia muscular
+  - analogía fuerza-voltaje
+  - superposición
+  - función de transferencia
+  - controlador PI
+  - MATLAB
+  - Simulink
+  - Simscape Electrical
+  - Python
+  - simulación in silico
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-11-03'
