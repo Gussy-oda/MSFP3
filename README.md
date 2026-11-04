@@ -145,7 +145,7 @@ La analogía no conserva necesariamente la topología: elementos mecánicos cone
 
 La modificación de $R$ representa el cambio de la componente viscosa. Los parámetros eléctricos son los valores utilizados para la experimentación *in silico* y no una conversión clínica directa.
 
-![Uploading Diagrama Biologico.png…]()
+![ Diagrama Biologico.png…]()
 
 [Volver al contenido](#contenido)
 
@@ -205,7 +205,7 @@ G(s)=\frac{F_s(s)}{F(s)}
 }.
 $$
 
-Esta función coincide con la implementada en `sistema.slx` y `Trejo23212239.py`.
+Esta función coincide con la implementada en `Sistema.slx` y `Ortega23212223.py`.
 
 ### 3. Modelos numéricos
 
@@ -297,7 +297,7 @@ La práctica solicita comparar las respuestas ante un impulso unitario durante $
 
 ### Distinción entre impulso ideal y señal implementada
 
-En `Trejo23212239.py` la entrada se construye mediante
+En `Ortega23212223.py` la entrada se construye mediante
 
 ```python
 F = np.zeros(N)
@@ -324,7 +324,7 @@ El modelo `sistema.slx` integra las representaciones solicitadas:
 
 ### Ejecución desde MATLAB
 
-El cuaderno `Trejo23212239.mlx` abre el modelo, configura la simulación y recupera:
+El cuaderno `Ortega23212223.mlx` abre el modelo, configura la simulación y recupera:
 
 1. $F(t)$: señal de entrada.
 2. $F_{s,control}(t)$: respuesta del individuo sano.
@@ -429,7 +429,7 @@ Estos valores son cálculos nominales. La práctica 5.5 se desarrolla exclusivam
 <a id="python"></a>
 ## Reproducción en Python
 
-`Trejo23212239.py` utiliza `numpy`, `matplotlib` y `python-control` para reproducir el análisis:
+`Ortega23212223.py` utiliza `numpy`, `matplotlib` y `python-control` para reproducir el análisis:
 
 1. Define el vector temporal y el pulso rectangular.
 2. Registra los parámetros de control y caso.
@@ -500,11 +500,11 @@ El aumento de $R$ desplaza el polo hacia el origen y ralentiza la respuesta sin 
 
 | Resultado | Archivo |
 |---|---|
-| Reporte del cuaderno MATLAB | [`Trejo23212239.pdf`](./Trejo23212239.pdf) |
-| Figura exportada por MATLAB/Simulink | [`senal_matlab.pdf`](./senal_matlab.pdf) |
-| Figura exportada por Python | [`Impulso_python.pdf`](./Impulso_python.pdf) |
-| Evidencia de sintonización | [`Ganancias.jpeg`](./Ganancias.jpeg) |
-| Análisis matemático manuscrito | [`AM3.pdf`](./AM3.pdf) |
+| Reporte del cuaderno MATLAB | [`Ortega23212223.pdf`](./Ortega23212223.pdf) |
+| Figura exportada por MATLAB/Simulink | [`Señal_matlab.pdf`](./Señal_matlab.pdf) |
+| Figura exportada por Python | [`Señal_python.pdf`](./Señal_python.pdf) |
+| Evidencia de sintonización | [`Propiedades_PID.jpeg`](./Propiedades_PID.jpeg) |
+| Análisis matemático manuscrito | [`Analisis matematico.pdf`](./Analisis matematico.pdf) |
 
 ### Verificación cruzada
 
@@ -608,15 +608,15 @@ La entrega puede organizarse de la siguiente manera:
 .
 ├── README.md                  # Reporte y guía de reproducción
 ├── CITATION.cff               # Datos de citación del repositorio
-├── Trejo23212239.mlx          # Cuaderno MATLAB
-├── Trejo23212239.pdf          # Exportación del cuaderno
-├── Trejo23212239.py           # Implementación Python
-├── sistema.slx                # Modelo Simulink/Simscape
-├── AM3.pdf                    # Análisis matemático por superposición
-├── Diagrama Biológico.png     # Diagrama fisiológico, mecánico y eléctrico
-├── Ganancias.jpeg             # Evidencia de sintonización del PI
-├── senal_matlab.pdf           # Resultado MATLAB/Simulink
-└── Impulso_python.pdf         # Resultado Python
+├── Ortega23212223.mlx          # Cuaderno MATLAB
+├── Ortega23212223.pdf          # Exportación del cuaderno
+├── Ortega23212223.py           # Implementación Python
+├── Sistema.slx                # Modelo Simulink/Simscape
+├── Analisis matematico.pdf    # Análisis matemático por superposición
+├── Diagrama Biologico.png     # Diagrama fisiológico, mecánico y eléctrico
+├── Propiedades_PID.jpeg       # Evidencia de sintonización del PI
+├── Señal_matlab.pdf           # Resultado MATLAB/Simulink
+└── Señal_python.pdf         # Resultado Python
 ```
 
 Los nombres anteriores corresponden a los archivos proporcionados. Si algún archivo se renombra o se mueve a una subcarpeta, deben actualizarse sus rutas relativas en este README.
@@ -664,7 +664,7 @@ python -m pip install numpy matplotlib control
 
 ### Secuencia de reproducción en MATLAB/Simulink
 
-1. Colocar `Trejo23212239.mlx` y `sistema.slx` en el mismo directorio.
+1. Colocar `Ortega23212223.mlx` y `Sistema.slx` en el mismo directorio.
 2. Abrir el cuaderno en MATLAB.
 3. Verificar que los bloques de control y caso utilicen los parámetros de la tabla.
 4. Confirmar `StopTime = 10`, `Solver = ode15s` y `MaxStep = 1e-3`.
@@ -675,11 +675,11 @@ python -m pip install numpy matplotlib control
 ### Secuencia de reproducción en Python
 
 1. Instalar las dependencias.
-2. Colocar `Trejo23212239.py` en el directorio de trabajo.
+2. Colocar `Ortega23212223.py` en el directorio de trabajo.
 3. Ejecutar:
 
 ```bash
-python Trejo23212239.py
+python Ortega23212223.py
 ```
 
 4. Verificar los polos impresos para control y caso.
