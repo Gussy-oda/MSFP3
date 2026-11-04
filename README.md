@@ -1,3 +1,5 @@
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Gussy-oda/MSFP3)
+
 # Práctica 3 — Modelado y control del sistema musculoesquelético
 
 Repositorio académico de la asignatura **Modelado de Sistemas Fisiológicos**, correspondiente al programa de **Ingeniería Biomédica** del Tecnológico Nacional de México / Instituto Tecnológico de Tijuana. Esta práctica integra modelado mecánico, analogía electromecánica, formulación matemática, análisis temporal y de estabilidad, control clásico y verificación computacional.
