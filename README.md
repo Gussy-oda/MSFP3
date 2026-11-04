@@ -145,7 +145,7 @@ La analogía no conserva necesariamente la topología: elementos mecánicos cone
 
 La modificación de $R$ representa el cambio de la componente viscosa. Los parámetros eléctricos son los valores utilizados para la experimentación *in silico* y no una conversión clínica directa.
 
-![ Diagrama Biologico.png…]()
+![Diagrama Biologico.png…]()
 
 [Volver al contenido](#contenido)
 
