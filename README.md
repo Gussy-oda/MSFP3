@@ -400,7 +400,6 @@ La evidencia de PID Tuner reporta:
 | Margen de fase | $90^\circ$ a $333\,\mathrm{rad/s}$ |
 | Estabilidad en lazo cerrado | Estable |
 
-![Ganancias y desempeño del controlador PI](./Ganancias.jpeg)
 
 ### 3. Cálculo de componentes del PI
 
