@@ -10,9 +10,9 @@ El caso de estudio representa un compartimento musculoesquelético mediante un e
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado de Sistemas Fisiológicos  
 **Programa:** Ingeniería Biomédica  
-**Estudiante:** Gabriel Fernando Trejo Paz  
-**Número de control:** 23212239  
-**Correo institucional:** L23212239@tectijuana.edu.mx  
+**Estudiante:** Gustavo Ortega Odabachea
+**Número de control:** 23212223  
+**Correo institucional:** L23212223@tectijuana.edu.mx  
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
 
 > **Alcance:** el controlador desarrollado tiene fines exclusivamente académicos y de simulación. No constituye una estrategia terapéutica para el tratamiento de la atrofia muscular.
@@ -145,7 +145,7 @@ La analogía no conserva necesariamente la topología: elementos mecánicos cone
 
 La modificación de $R$ representa el cambio de la componente viscosa. Los parámetros eléctricos son los valores utilizados para la experimentación *in silico* y no una conversión clínica directa.
 
-![Relación entre el sistema biológico, el modelo mecánico y el circuito equivalente](./Diagrama%20Biol%C3%B3gico.png)
+![Uploading Diagrama Biologico.png…]()
 
 [Volver al contenido](#contenido)
 
